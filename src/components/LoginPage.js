@@ -71,7 +71,6 @@ const LoginPage = () => {
 			<h1>Hello Beautiful</h1>
 			<p>I love you so much</p>
 			<br />
-			<p>Happy Valentines Day</p>
 			{hearts.map((heart) => (
 				<Heart key={heart.id} style={heart.style} color={"blue"} y={-200} />
 			))}

@@ -69,7 +69,7 @@ const SlidesPage = () => {
 				<h1 style={{ color: "green" }}>
 					Happy Valentines Day My Beautiful Riley
 				</h1>
-				<h3 style={{ color: "green" }}>
+				<h3 style={{ color: "pink" }}>
 					I know it's not much but this is what I'v been working on :)
 				</h3>
 			</div>
