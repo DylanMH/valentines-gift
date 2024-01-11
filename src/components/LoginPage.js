@@ -59,10 +59,7 @@ const LoginPage = () => {
 			return;
 		} else {
 		}
-		if (
-			username === "toaster" ||
-			(username === "chrysanthemum" && password === "12799")
-		) {
+		if (username === "chrysanthemum" && password === "12799") {
 			navigate("/slides");
 		} else {
 			alert("Invalid Username or Password!");

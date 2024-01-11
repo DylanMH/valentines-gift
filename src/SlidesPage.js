@@ -4,7 +4,7 @@ import useSound from "use-sound";
 
 import SeaSlugTrail from "./components/SeaSlugTrail";
 import Heart from "./components/Heart";
-import FunnyScreenshot from "./components/FunnyScreenshot";
+/* import FunnyScreenshot from "./components/FunnyScreenshot"; */
 import lightmylove from "./assets/sounds/lightmylove.mp3";
 
 // images
@@ -13,7 +13,7 @@ import CloudBackground from "./assets/images/cloud.png";
 const SlidesPage = () => {
 	// Handle logic for heart animation/spawn logic
 	const [hearts, setHearts] = useState([]);
-	const [funnyScreenShot, setFunnyScreenShot] = useState([]);
+	/* 	const [funnyScreenShot, setFunnyScreenShot] = useState([]); */
 	const [play] = useSound(lightmylove, {
 		volume: 0.01,
 		soundEnabled: true,
@@ -44,7 +44,7 @@ const SlidesPage = () => {
 	}, []);
 
 	// Separate interval for generating screenshots
-	useEffect(() => {
+	/* useEffect(() => {
 		const screenshotInterval = setInterval(() => {
 			const newScreenShot = {
 				id: Math.random(),
@@ -61,7 +61,7 @@ const SlidesPage = () => {
 		}, 7000); // Creates a new screenshot every "x" ms
 
 		return () => clearInterval(screenshotInterval);
-	}, []);
+	}, []); */
 
 	return (
 		<div style={{ height: "100vh" }}>
