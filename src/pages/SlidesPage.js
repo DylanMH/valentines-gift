@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import useSound from "use-sound";
 
-import SeaSlugTrail from "./components/SeaSlugTrail";
-import Heart from "./components/Heart";
+import SeaSlugTrail from "../components/SeaSlugTrail";
+import Heart from "../components/Heart";
 /* import FunnyScreenshot from "./components/FunnyScreenshot"; */
-import lightmylove from "./assets/sounds/lightmylove.mp3";
+import lightmylove from "../assets/sounds/lightmylove.mp3";
 
 // images
-import CloudBackground from "./assets/images/cloud.png";
+import CloudBackground from "../assets/images/cloud.png";
 
 const SlidesPage = () => {
 	// Handle logic for heart animation/spawn logic

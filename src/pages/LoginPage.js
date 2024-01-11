@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "../App.css";
 
 import Flower from "../assets/images/login-flower.png";
-import Heart from "./Heart.js";
+import Heart from "../components/Heart.js";
 
 const LoginPage = () => {
 	// Handle logic for heart animation/spawn logic
