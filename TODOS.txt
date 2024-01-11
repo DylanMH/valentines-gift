@@ -1,0 +1,25 @@
+Valentines Day Surprise
+
+- Login screen that takes in her favorite flower as the username and her birthday as the password
+- Once logged in the screen will explode with her favorite flower colored as green
+- Slides will display text kinda like how I did my personal portfolio, with a cloudy green background and big bubble letters
+- Maybe I can have a little green sea slug walk across the screen with the letters following
+- Once the flowers fade away, it will be like a slide show of why I love her
+  - slide 1: I don't think I can put into words how much I love you, but here's me trying
+  - slide 2: The way you laugh always lights up my day!
+  - slide 3: Looking at pictures of you and seeing your face always makes me happy
+  - slide 4: The way you put up with my issues and try and help me with making me feel happy
+  - slide 5: Knowing you'll always be there for me no matter what
+  - slide 6: I find myself smiling and letting out a little giggle when I can hear you sleeping, and I just think about how cute you look
+  - slide 7: The little things you remember about me always surpises me and makes me feel wanted
+  - slide 8: 
+
+  -- LOGIN PAGE
+- The inputs will be displayed in her favorite flower with a cloudy green background
+
+  -- SLIDE PAGE
+- Each compliment will be displayed in the center of the screen with a cloudy green background
+- After a short while the sea slug will start to crawl across the screen with the bubbly letters following
+- Like the login page, add floating screenshots of funniest messages from Riley.
+- Add the floating hearts
+- 
