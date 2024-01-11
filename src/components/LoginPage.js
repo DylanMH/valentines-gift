@@ -61,7 +61,7 @@ const LoginPage = () => {
 		}
 		if (
 			username === "toaster" ||
-			(username === "chrysanthemum" && password === "1")
+			(username === "chrysanthemum" && password === "12799")
 		) {
 			navigate("/slides");
 		} else {
