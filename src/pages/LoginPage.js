@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../App.css";
 
-import Flower from "../assets/images/login-flower.png";
-import Heart from "../components/Heart.js";
+import "../App.css";
+import "../Login.css";
+/* import Heart from "../components/Heart.js"; */
 
 const LoginPage = () => {
 	// Handle logic for heart animation/spawn logic
-	const [hearts, setHearts] = useState([]);
+	/* 	const [hearts, setHearts] = useState([]); */
 	const navigate = useNavigate();
 
-	useEffect(() => {
+	/* 	useEffect(() => {
 		const interval = setInterval(() => {
 			const newHeart = {
 				id: Math.random(), // Unique ID for key prop
@@ -36,7 +36,7 @@ const LoginPage = () => {
 
 		return () => clearInterval(interval);
 	}, []);
-
+ */
 	// Logic for login inputs. Validate user inputs and route user to correct page. Give funny feedback to user if input is invalid.
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
@@ -59,7 +59,10 @@ const LoginPage = () => {
 			return;
 		} else {
 		}
-		if (username === "chrysanthemum" && password === "12799") {
+		if (
+			username === "chrysanthemum" ||
+			(username === "Chrysanthemum" && password === "12799")
+		) {
 			navigate("/slides");
 		} else {
 			alert("Invalid Username or Password!");
@@ -67,15 +70,13 @@ const LoginPage = () => {
 	};
 
 	return (
-		<>
-			<h1>Hello Beautiful</h1>
-			<p>I love you so much</p>
+		<div class="background">
 			<br />
-			{hearts.map((heart) => (
+			{/* 			{hearts.map((heart) => (
 				<Heart key={heart.id} style={heart.style} color={"blue"} y={-200} />
-			))}
+			))} */}
 			<div className="login-container">
-				<img src={Flower} alt="Flower" className="flower-image" />
+				<h1 className="login-header">Happy Valentines Day Beautiful</h1>
 				<div className="input-container">
 					<input
 						className="input-styles"
@@ -94,7 +95,7 @@ const LoginPage = () => {
 					</button>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 
