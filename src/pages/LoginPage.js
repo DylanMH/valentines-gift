@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import "../App.css";
-import "../Login.css";
 /* import Heart from "../components/Heart.js"; */
 
 const LoginPage = () => {
@@ -70,7 +69,7 @@ const LoginPage = () => {
 	};
 
 	return (
-		<div class="background">
+		<div class="login-background">
 			<br />
 			{/* 			{hearts.map((heart) => (
 				<Heart key={heart.id} style={heart.style} color={"blue"} y={-200} />

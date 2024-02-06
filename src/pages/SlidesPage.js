@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+/* import { motion } from "framer-motion"; */
 import useSound from "use-sound";
 
+import "../App.css";
 import SeaSlugTrail from "../components/SeaSlugTrail";
 import Heart from "../components/Heart";
 /* import FunnyScreenshot from "./components/FunnyScreenshot"; */
 import lightmylove from "../assets/sounds/lightmylove.mp3";
 
 // images
-import CloudBackground from "../assets/images/cloud.png";
+/* import CloudBackground from "../assets/images/cloud.png"; */
 
 const SlidesPage = () => {
 	// Handle logic for heart animation/spawn logic
@@ -64,22 +65,22 @@ const SlidesPage = () => {
 	}, []); */
 
 	return (
-		<div style={{ height: "100vh" }}>
+		<div class="slides-background" style={{ height: "100vh" }}>
 			<div style={{ padding: "3rem" }}>
 				<h1 style={{ color: "green" }}>
 					Happy Valentines Day My Beautiful Riley
 				</h1>
-				<h3 style={{ color: "pink" }}>
-					I know it's not much but this is what I'v been working on :)
+				<h3 style={{ color: "black" }}>
+					I know it's not much but this is what I'v been working on
 				</h3>
 			</div>
-			<motion.img
+			{/* <motion.img
 				src={CloudBackground}
 				style={{
 					zIndex: "-1",
 					position: "absolute",
 					width: "100%",
-					top: "-300px",
+					top: "-400px",
 					height: "800px",
 				}}
 				initial={{ scale: 1 }}
@@ -125,7 +126,7 @@ const SlidesPage = () => {
 					duration: 10,
 					ease: "linear",
 				}}
-			></motion.img>
+			></motion.img> */}
 			<div style={{ width: "100vw", position: "absolute" }}>
 				{hearts.map((heart) => (
 					<Heart key={heart.id} style={heart.style} y={900} />
@@ -138,9 +139,9 @@ const SlidesPage = () => {
 			</div> */}
 			<SeaSlugTrail
 				screenWidth={2000}
-				crawlSpeed={2}
-				wordRevealSpeed={20}
-				avgCharWidth={7}
+				crawlSpeed={3}
+				wordRevealSpeed={30}
+				avgCharWidth={8}
 			/>
 		</div>
 	);

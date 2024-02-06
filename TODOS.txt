@@ -23,3 +23,12 @@ Valentines Day Surprise
 - Like the login page, add floating screenshots of funniest messages from Riley.
 - Add the floating hearts
 - 
+
+
+
+TODO BEFORE THE BIG DAY 
+- CLEAN UP LOGIN UI INPUT BACKGROUND COLORS
+- ADD BACKDROP IMAGE TO SLIDE PAGE?
+- CLEANER FONTS AND FONT COLORS?
+- ADD MORE COMMENTS?
+- CLEANER COMMENT FONT AND COLOR

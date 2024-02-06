@@ -5,32 +5,28 @@ const compliments = [
 	},
 	{
 		id: 2,
-		compliment:
-			"Hearing you laugh and seeing your smile always warms up my heart and makes my day better",
+		compliment: "Your laugh is so cute and hearing it makes me so happy",
 	},
 	{
 		id: 3,
-		compliment:
-			"Every picture I see of you makes me smile and makes me feel so lucky to have you in my life",
+		compliment: "You bring so much joy and love into my life",
 	},
 	{
 		id: 4,
-		compliment:
-			"I can never get enough of you, I always want to be with you and talk to you",
+		compliment: "I'll never get enough of you, I want to hold you forever",
 	},
 	{
 		id: 5,
-		compliment: "I love knowing you'll always be there for me",
+		compliment: "You're an amazing girlfriend and I'm so glad we met",
 	},
 	{
 		id: 6,
 		compliment:
-			"I find myself smiling and letting out a little giggle when I can hear you sleeping, and I just think about how cute you look",
+			"Hearing you sleep is so adorable and I always imagine how cute you look",
 	},
 	{
 		id: 7,
-		compliment:
-			"The little things you remember about me always surpise me and makes me feel wanted",
+		compliment: "All the little things you remember amazes me, you're so smart",
 	},
 	{
 		id: 8,
@@ -40,7 +36,36 @@ const compliments = [
 	{
 		id: 9,
 		compliment:
-			"I love how you always want to talk to me and how you always want to be with me",
+			"With you in my life, I know I'll always have someone to talk to",
+	},
+	{
+		id: 10,
+		compliment: "I love you more than anything in the world",
+	},
+	{
+		id: 11,
+		compliment: "Your smile brightens my day more than you could ever know",
+	},
+	{
+		id: 12,
+		compliment:
+			"You are so cute and adorable and beautiful, I can't get enough of you",
+	},
+	{
+		id: 13,
+		compliment: "I think about you every day",
+	},
+	{
+		id: 14,
+		compliment: "I dream of the day I get to hold you in my arms",
+	},
+	{
+		id: 15,
+		compliment: "You're my beautiful girl and I love you so much",
+	},
+	{
+		id: 16,
+		compliment: "Every moment with you is a moment I cherish",
 	},
 ];
 
