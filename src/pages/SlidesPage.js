@@ -65,85 +65,39 @@ const SlidesPage = () => {
 	}, []); */
 
 	return (
-		<div class="slides-background" style={{ height: "100vh" }}>
-			<div style={{ padding: "3rem" }}>
-				<h1 style={{ color: "green" }}>
-					Happy Valentines Day My Beautiful Riley
-				</h1>
-				<h3 style={{ color: "black" }}>
-					I know it's not much but this is what I'v been working on
-				</h3>
-			</div>
-			{/* <motion.img
-				src={CloudBackground}
-				style={{
-					zIndex: "-1",
-					position: "absolute",
-					width: "100%",
-					top: "-400px",
-					height: "800px",
-				}}
-				initial={{ scale: 1 }}
-				animate={{ scale: Math.random() * 0.5 + 0.5 }}
-				transition={{
-					repeat: Infinity,
-					duration: 10,
-					ease: "linear",
-				}}
-			></motion.img>
-			<motion.img
-				src={CloudBackground}
-				style={{
-					zIndex: "-2",
-					position: "absolute",
-					width: "100%",
-					top: "-100px",
-					height: "500px",
-					left: "45%",
-				}}
-				initial={{ scale: 1 }}
-				animate={{ scale: Math.random() * 0.5 + 0.5 }}
-				transition={{
-					repeat: Infinity,
-					duration: 10,
-					ease: "linear",
-				}}
-			></motion.img>
-			<motion.img
-				src={CloudBackground}
-				style={{
-					zIndex: "-2",
-					position: "absolute",
-					width: "100%",
-					top: "-200px",
-					height: "600px",
-					left: "-50%",
-				}}
-				initial={{ scale: 1 }}
-				animate={{ scale: Math.random() * 0.5 + 0.5 }}
-				transition={{
-					repeat: Infinity,
-					duration: 10,
-					ease: "linear",
-				}}
-			></motion.img> */}
+		<>
+			<div class="slides-background" style={{ height: "100vh" }}></div>
 			<div style={{ width: "100vw", position: "absolute" }}>
 				{hearts.map((heart) => (
 					<Heart key={heart.id} style={heart.style} y={900} />
 				))}
 			</div>
-			{/* <div style={{ width: "100vw" }}>
-				{funnyScreenShot.map((screenshot) => (
-					<FunnyScreenshot key={screenshot.id} style={screenshot.style} />
-				))}
-			</div> */}
+			<div
+				style={{
+					justifyContent: "center",
+					alignContent: "center",
+					position: "absolute",
+					top: "30%",
+					left: "29%",
+					margin: "auto",
+				}}
+			>
+				<h1
+					style={{
+						color: "green",
+						fontSize: "50px",
+					}}
+				>
+					Happy Valentines Day My Beautiful Riley
+				</h1>
+			</div>
 			<SeaSlugTrail
 				screenWidth={2000}
 				crawlSpeed={3}
 				wordRevealSpeed={30}
 				avgCharWidth={8}
 			/>
-		</div>
+		</>
 	);
 };
 

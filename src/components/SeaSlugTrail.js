@@ -65,7 +65,7 @@ const SeaSlugTrail = ({
 		<div
 			style={{
 				width: "100vw",
-				height: "50vh",
+				height: "100vh",
 				display: "flex",
 				justifyContent: "center",
 				alignItems: "center",
@@ -81,7 +81,7 @@ const SeaSlugTrail = ({
 					height: "auto",
 					width: "100px",
 					zIndex: 1,
-					top: "33%",
+					top: "42%",
 				}}
 			/>
 			<motion.p

@@ -67,6 +67,22 @@ const compliments = [
 		id: 16,
 		compliment: "Every moment with you is a moment I cherish",
 	},
+	{
+		id: 17,
+		compliment: "I love spending every day with you and listening to you talk",
+	},
+	{
+		id: 18,
+		compliment: "I love trying to make you giggle, its the cutest thing ever",
+	},
+	{
+		id: 19,
+		compliment: "I want to love you forever and always",
+	},
+	{
+		id: 20,
+		compliment: "Happy Valentines Day beautiful. I love you so much Riley",
+	},
 ];
 
 export default compliments;
