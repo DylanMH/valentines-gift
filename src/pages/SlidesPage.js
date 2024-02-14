@@ -99,7 +99,7 @@ const SlidesPage = () => {
 						}}
 					/>
 					<h1 style={{ position: "absolute", top: "30%" }}>
-						Happy Valentines Day
+						Happy Valentines Day Beautiful
 					</h1>
 					<h1 style={{ position: "absolute", top: "35%" }}>I love you!</h1>
 					<h1 style={{ position: "absolute" }}>Will you be mine?</h1>
