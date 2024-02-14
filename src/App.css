@@ -11,6 +11,7 @@ html {
 	height: 100vh;
 	overflow-x: hidden;
 	overflow-y: hidden;
+	background-color: black;
 }
 
 h1 {
@@ -138,4 +139,26 @@ input::placeholder {
 	width: 100vw;
 	position: absolute;
 	top: 0;
+}
+
+@keyframes dissolve {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.dissolve-effect {
+	animation: dissolve 3s forwards;
+}
+
+.final-heart-container {
+	height: 100vh; /* 100% of the viewport height */
+	width: 100vw; /* 100% of the viewport width */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: "black";
 }

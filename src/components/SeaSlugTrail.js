@@ -10,6 +10,7 @@ const SeaSlugTrail = ({
 	crawlSpeed,
 	wordRevealSpeed,
 	avgCharWidth,
+	onAllComplimentsDisplayed, // callback function for when all compliments have been displayed
 }) => {
 	const [currentComplimentIndex, setCurrentComplimentIndex] = useState(0);
 	const [revealedWordCount, setRevealedWordCount] = useState(0);
@@ -44,6 +45,11 @@ const SeaSlugTrail = ({
 						setRevealedWordCount(0);
 						const nextIndex = (currentComplimentIndex + 1) % compliments.length;
 						setCurrentComplimentIndex(nextIndex);
+
+						// If all compliments have been displayed, call the callback
+						if (nextIndex === 0) {
+							onAllComplimentsDisplayed();
+						}
 					}, 3000); // Delay before next compliment
 				}
 			}
@@ -59,6 +65,7 @@ const SeaSlugTrail = ({
 		crawlSpeed,
 		wordRevealSpeed,
 		avgCharWidth,
+		onAllComplimentsDisplayed,
 	]);
 
 	return (
